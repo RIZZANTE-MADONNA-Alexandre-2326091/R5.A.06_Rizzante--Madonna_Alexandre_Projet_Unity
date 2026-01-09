@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc476b965d890054287081dc8c669dc1
+guid: 9031d21146aeb6e46b4f28fc39d7b223
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ch14_Body
-    second: {fileID: 2100000, guid: d2c3d7a8e92ad5640aca71a3f66c2c84, type: 2}
+    second: {fileID: 2100000, guid: 7ad73b9e8a38b464d92f95eff0385c87, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
