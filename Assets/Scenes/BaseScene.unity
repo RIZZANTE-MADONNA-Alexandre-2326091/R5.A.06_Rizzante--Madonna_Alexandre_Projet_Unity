@@ -1207,11 +1207,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 451426798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6624bd47c1d42474785d6c9ecb3bdf0a, type: 3}
+  m_Script: {fileID: 11500000, guid: a282ea83abd1c1c41a865d2e3025e7e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpeedRotation: 180
-  m_RotationXLimits: {x: -10, y: 70}
 --- !u!1 &461857469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,7 +1502,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4661203012485256315, guid: 6b6d4e75bcf2dbd48b81000b46322f65, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 689237305}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b6d4e75bcf2dbd48b81000b46322f65, type: 3}
 --- !u!4 &596871931 stripped
@@ -1735,7 +1736,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 596871931}
     m_Modifications:
     - target: {fileID: 685230994086199166, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_Name
@@ -1743,27 +1744,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.39189
+      value: 0.14874744
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.39189
+      value: 1.5805839
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.39189
+      value: 0.22332457
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.31
+      value: 0.17839532
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.91
+      value: 1.2099708
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.3169427
+      value: 0.06442743
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1771,15 +1772,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1821,6 +1822,11 @@ MonoBehaviour:
   m_AngleSpeed: {x: 0, y: 360, z: 0}
   m_Space: 0
   m_Randomize: 0
+--- !u!4 &689237305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 900087146548653966, guid: 4e174a802d80249478943347d648bb49, type: 3}
+  m_PrefabInstance: {fileID: 689237302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &710703832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9167838508178432103, guid: 9ce325ecd04a3d74cadb803af306a610, type: 3}
@@ -4645,4 +4651,3 @@ SceneRoots:
   - {fileID: 1565908985}
   - {fileID: 824257129}
   - {fileID: 873661742}
-  - {fileID: 689237302}
